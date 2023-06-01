@@ -1,6 +1,6 @@
 1) Install Android Studio on the computer
 2) Disable autorun (if not already)
-3) Download and Extract Android Studio Project Folder for FTC from https://github.com/FIRST-Tech-Challenge/SkyStone (go to the releases / can also find it here)
+3) Download and Extract Android Studio Project Folder for FTC from https://github.com/FIRST-Tech-Challenge/SkyStone (go to the releases to download the latest version)
 4) Import the FTC Project into Android Studio
 5) Enable USB Debugging from phone (Developer Options) - Optional
 6) Enable auto import from settings (if you want) - Highly Recommended
