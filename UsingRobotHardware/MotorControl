@@ -1,0 +1,11 @@
+1) Declare the motor with its appropriate data type (e.g. private DcMotor motor)
+2) In the init/runOpMode loops get their hardware according to the configuration (e.g. motor = hardwareMap.get(DcMotor.class, "motor")
+3) In the same loop set the direction of the motors rotating (e.g. motor.setDirection(DcMotor.Direction.REVERSE))
+4) If you are also going to use encoders it is good to set their mode at the beginning (e.g. motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER))
+5) Moving the motor:
+    a. Without encoders:
+        motor.setPower(<power>) <-- number in bracket should be from -1 to 1
+    b. With encoders:
+        motor.setTargetPosition(<positions>)
+        motor.setMode(DcMotor.RunMode.RUN_TO_POSITION)
+        motor.setPower(<power>)
