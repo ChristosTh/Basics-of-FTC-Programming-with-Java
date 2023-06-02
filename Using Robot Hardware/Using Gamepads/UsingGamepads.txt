@@ -1,0 +1,4 @@
+1) The First Tech Challenge competition allows you to use up to 2 gamepads
+2) Gamepads have two types of buttons (some that are boolean - return true/false and some that are float - return a decimal number)
+3) Therefore according to these you need to figure out what you want to use each button for (e.g. joysticks for motor power)
+4) You can access the buttons of the gamepads by writing gamepad<gamepadNumber>.<button> (e.g. gamepad2.left_stick_x)
