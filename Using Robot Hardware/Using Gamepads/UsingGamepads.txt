@@ -2,3 +2,4 @@
 2) Gamepads have two types of buttons (some that are boolean - return true/false and some that are float - return a decimal number)
 3) Therefore according to these you need to figure out what you want to use each button for (e.g. joysticks for motor power)
 4) You can access the buttons of the gamepads by writing gamepad<gamepadNumber>.<button> (e.g. gamepad2.left_stick_x)
+5) You can find everything about each button and feature of each controller in the website: https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.html
