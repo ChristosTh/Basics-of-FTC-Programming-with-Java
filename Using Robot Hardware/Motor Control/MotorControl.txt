@@ -9,3 +9,4 @@
         motor.setTargetPosition(<positions>)
         motor.setMode(DcMotor.RunMode.RUN_TO_POSITION)
         motor.setPower(<power>)
+ 6) You can find everything about the motors and their features in the website: https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.html
