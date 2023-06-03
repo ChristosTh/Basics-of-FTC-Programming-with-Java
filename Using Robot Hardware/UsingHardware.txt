@@ -5,3 +5,4 @@
 5) We need to use the FTC statement <name of variable of device> = hardwareMap.get(<data type of device>.class, "<the name we configured it>");
 6) In these loops we also need to use some attributes of our devices that are very useful to us
     e.g. for motors it would be good to set their direction and modes
+7) You can find everything about the hardware of the robot in the website: https://ftctechnh.github.io/ftc_app/doc/javadoc/overview-summary.html (there are specific links for each section in the instructions for the hardware specified)
