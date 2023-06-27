@@ -1,5 +1,5 @@
 1) Hardware devices on the robot are treated like variables so that they can be used in the program
-2) Therefore they have their own data types (e.g. DcMotor, Servo <-- these are two datatypes)
+2) Therefore they have their own data types (e.g. DcMotor, Servo <-- these are two datatypes - for motors we mainly use DcMotorEx so that we can have access to more features)
 3) The first thing we need to do is to declare them like every other variable
 4) Through the init loop (TeleOp) or runOpMode (Autonomous) we need to configure them by getting access to the hardware (check configure robot file)
 5) We need to use the FTC statement <name of variable of device> = hardwareMap.get(<data type of device>.class, "<the name we configured it>");
