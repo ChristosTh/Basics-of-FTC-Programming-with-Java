@@ -1,6 +1,7 @@
 # Basics-of-FTC-Programming-with-Java
 
 This repository can be linked with the course in Udemy called Basics of FTC Programming with Java. The aim of this is to get the new FTC programmers to learn about the basics of FTC programming.
+Requirements: Know the basics of any programming language
 
 How to use this repository:
 1) Every time you get into a folder read the .txt file for the instructions you need to follow on how to use it.
