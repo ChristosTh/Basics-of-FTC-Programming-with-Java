@@ -11,3 +11,6 @@ Steps:
 1) The first thing you need to do is having Android Studio installed, so follow the instructions in the Installing Android Studio folder
 2) There are templates for the TeleOp and Autonomous mode in the Templates To Start so that you can start writing your own code
 3) In the Using Robot Hardware folder you will find whatever you need to start writing simple code with actions on your robot hardware
+
+NOTE:
+It gets updated!
