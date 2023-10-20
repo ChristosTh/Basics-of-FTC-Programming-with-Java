@@ -29,7 +29,7 @@ public class UsingGamepadBooleanButton extends OpMode {
         // Main Program
 
         if(gamepad1.a) {
-            motor.setPower(0);  // while the button a is pressed (true condition) the motor will have a power of 1 (max)
+            motor.setPower(1);  // while the button a is pressed (true condition) the motor will have a power of 1 (max)
         } else {
             motor.setPower(0); // if the button a is not pressed (false condition) the motor will have a power of 0 (not moving)
         }
