@@ -16,7 +16,7 @@ public class MotorControlNoEncoders extends OpMode {
 
         // Init
         motor = hardwareMap.get(DcMotor.class, "motor"); // getting the component
-        motor.setDirection(DcMotorSimple.Direction.FORWARD); // setting the direction of rotation
+        motor.setDirection(DcMotor.Direction.FORWARD); // setting the direction of rotation
 
         // Getting hardware components
 
