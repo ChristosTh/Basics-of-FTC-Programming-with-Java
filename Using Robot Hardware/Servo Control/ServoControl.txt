@@ -3,4 +3,5 @@
 2) Declare the servo (e.g. private Servo servo1)
 3) In the init/runOpMode loops get their hardware according to the configuration (e.g. servo1 = hardwareMap.get(Servo.class, "servo1")
 4) You can access the position of the servo (e.g. servo1.setPosition(<position>)) (depending on the way you program it you might need it to move on init to get the starting position)
-5) You can find everything about the servo and its features in the website: https://ftctechnh.github.io/ftc_app/doc/javadoc/index.html?com/qualcomm/robotcore/hardware/Servo.html
+5) You can also use the servo with continuous rotation and use it with power like the motors (e.g. cServo.setPower(<power>). But you need to declare it with another data type called CRServo (e.g. private CRServo cServo). Therefore its whole class changes to CRServo.
+6) You can find everything about the servo and its features in the website: https://ftctechnh.github.io/ftc_app/doc/javadoc/index.html?com/qualcomm/robotcore/hardware/Servo.html
